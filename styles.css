@@ -1,0 +1,540 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header img{
+    width: 40px;
+    display: flex;
+}
+.header{
+    display: flex;
+    background: rgb(0, 195, 255);
+    padding-top: 20px;
+    padding: 20px;
+
+}
+
+.header ul{
+    display: flex;
+   
+
+}
+.header ul li{
+    margin-left: 20px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.related-products-header{
+    text-align: center;
+    color: aqua;
+}
+.search_bar{
+    margin-left: 25%;
+    display: flex;
+    font-size: 18px;
+}
+.search_bar input{
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    border: none;
+    font-size: 17px;
+    border-radius: 4px;
+}
+.search_bar button{
+    width: 100px;
+    background: rgb(0, 195, 255);
+border: 1px solid #fff;
+font-size: 17px;
+color: #fff;
+margin-left: 5px;
+border-radius: 4px;
+
+}
+/* welcomepart--------*/
+.welcome_part{
+    background: grey;
+    display: flex;
+    padding: 20px;
+}
+.welcome_part h3{
+    font-size: 23px;
+    color: #fff;
+    margin-right: 23px;
+}
+.welcome_part p{
+    margin-top: 3px;
+    font-weight: bold;
+    
+}
+.welcome_part a{
+    text-decoration: none;
+    color: rgb(0, 195, 255);
+    font-size: 20px;
+}
+/*-----display products---*/
+.productsandsidebar{
+    display: flex;
+    background-color: aliceblue;
+
+}
+
+
+.products_wrap{
+    margin-left: 20px;
+    margin-bottom: 5%;
+}
+.products_wrap h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width: 350px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.card:hover{
+transform: scale(1.05);
+}
+.card img{
+   height: 200px;
+   object-fit: contain;
+margin-left: 15%;
+}
+.card h3{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.card p{
+    margin-left: 15px;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.card button .view-more a{
+   
+text-decoration: none;
+}
+.card button{
+    width: 150px;
+    padding: 10px;
+    margin-left: 5px;
+    background-color: rgb(0, 195, 255);
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.card button a{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+}
+.card .view-more:hover{
+    background-color: #777;
+    color: #fff;
+    color: black;
+}
+
+
+.card .view-more{
+   
+    background-color: #fff;
+    border: 1px solid #777;
+}
+.view-more a{
+    text-decoration: none;
+    color: #333;
+}
+.footer{
+    background: #777;
+    text-align: center;
+    font-size: 18px;
+    padding: 5%;
+}
+/*sidebar------*/
+.sidebar{
+    text-align: center;
+    margin-top: 6%;
+    background: #777;
+    border-radius: 10px;
+    color: #fff;
+    width: 250px;
+    height: 170vh;
+
+
+}
+.sidebar a{
+    color: #fff;
+text-decoration: none;
+}
+.sidebar h3{
+    background-color: rgb(0, 195, 255);
+    padding: 20px;
+    border: none;
+    color: black;
+}
+.sidebar p{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*------admin panel---*/
+.admin{
+    display: flex;
+    background-color: rgb(0, 195, 255);
+justify-content: space-between;
+padding: 20px;
+}
+.admin img{
+    width: 40px;
+}
+.admin-operations{
+    background: #777;
+    padding: 20px;
+
+}
+.operation{
+display: flex;
+flex-wrap: wrap;
+}
+.operation img{
+    width: 70px;
+
+}
+.operation button a{
+    text-decoration: none;
+    color: #fff;
+}
+.operation button{
+    width: 180px;
+    padding: 14px;
+    background-color: rgb(0, 195, 255);
+border: 1px solid #fff;
+margin-left: 10px;
+font-size: 18px;
+color: #fff;
+margin-bottom: 40px;
+border-radius: 10px;
+margin-top: 10px;
+}
+/*-----inserting forms*/
+.insert-form h3{
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.insert-form input{
+margin-left: 15%;   
+ width: 35%;
+ padding: 17px;
+font-size: 18px;
+border-radius: 4px;
+border: 1px solid #d3cdcd;
+}
+.insert-form button{
+    width: 200px;
+    padding: 17px;
+    background-color: rgb(0, 195, 255);
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+}
+.firstinput p{
+    font-size: 18px;
+}
+
+/*--------insert form---*/
+.product-form{
+    padding: 20px;
+    border: none;
+    width: 700px;
+margin-left: 17%;
+margin-top: 20px;
+background: aliceblue;
+border-radius: 15px;
+
+}
+.product-form h3{
+text-align: center;
+font-size: 25px;
+margin: 20px;
+}
+.firstinput{
+margin-bottom: 20px;
+text-align: center;
+font-size: 18px;
+}
+.firstinput label{
+    display: block;
+margin: 10px; 
+text-align: left;
+font-size: 18px;
+margin-left: 25%;
+
+
+}
+.firstinput input, select{
+    width: 60%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #d3cdcd;
+
+}
+
+.insert-product button{
+    width: 200px;
+    background-color: rgb(0, 195, 255);
+    padding: 15px;
+    color: white;
+    margin-left: 30%;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+}
+/* table part in my orders secion */
+
+
+/* --------cart---------- */
+table{
+    margin: 20px 20px 20px 20px;
+    font-size: 18px;
+    border-collapse: collapse;
+   
+
+}
+table img{
+    width: 70px;
+}
+table thead tr th{
+    padding: 20px;
+    border-bottom: 3px solid #333;
+   
+}
+table tbody tr td{
+padding: 15px 15px 15px 30px;
+border: 1px solid #333;
+justify-content: center;
+align-items: center;
+}
+tr th{
+    border: 1px solid #333;
+ 
+}
+table button{
+    width: 150px;
+    background-color: rgb(0, 195, 255);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+table input{
+    width: 70px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+.total{
+    margin: 20px;
+    display: flex;
+}
+.total h3{
+    margin-right: 30px;
+    font-size: 28px;
+}
+.total span{
+    color: rgb(0, 195, 255);
+    font-size: 30px;
+    font-weight: bold;
+}
+.total button{
+    width: 200px;
+    background-color: rgb(0, 195, 255);
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 5px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.total .checkout{
+    background-color: #333;
+    color: white;
+}
+.total .checkout:hover{
+background-color:  seagreen;
+ color: white; 
+}
+.total button:hover{
+    background-color: #333;
+color: rgb(0, 195, 255);
+  
+}
+button a{
+    text-decoration: none;
+}
+
+/* -------------Payment part--------- */
+.payment{
+    margin-left: 10%;
+}
+.payment h1{
+    margin: 20px auto 50px;
+    color: rgb(0, 195, 255);
+    font-size: 35px;
+    text-align: center;
+
+
+}
+.payment-options{
+display: flex;
+}
+.payment-options img{
+width: 500px;
+border-radius: 10px;
+}
+.payment-options h2{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.payment-options h2 a{
+    color: rgb(89, 33, 163);
+    font-size: 30px;
+
+}
+
+
+/* Profile Page Part */
+.profile-page{
+display: flex;
+margin: 30px;
+border-radius: 25px;
+
+}
+.profile-details h3{
+background: rgb(0, 195, 255);
+color: white;
+padding: 20px;
+font-size: 30px;
+
+
+}
+.profile-details{
+    margin-right: 10%;
+    width: 250px;
+    background: grey;
+    padding-bottom: 17px;
+    text-align: center;
+
+
+}
+.profile-details p{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.profile-details a{
+    text-decoration: none;
+    color: white;
+    
+}
+.profile-details img{
+    width: 100px;
+    padding-bottom: 20px;
+
+}
+.pending-orders{
+    margin-top: 8%;
+}
+.pending-orders h3{
+    font-size: 35px;
+    color: green;
+    margin-bottom: 30px;
+}
+.pending-orders span{
+    color:  red;
+}
+.pending-orders p{
+    font-size: 23px;
+    text-align: center;
+}
+
+/* admin login and registration forms */
+.admin-login-form{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+.form h3{
+text-align: center;
+font-size: 30px;
+margin: 20px auto 30px;
+}
+
+
+.admin-login-form  input{
+     width: 350px;
+     padding: 17px;
+     margin: 10px auto 20px 15%;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid #d3cdcd;
+
+    }
+    .admin-login-form button{
+        width: 150px;
+        padding: 17px;
+        background-color: rgb(0, 195, 255);
+        color: white;
+        font-size: 18px;
+        border-radius: 4px;
+        border: none;
+        margin-left: 16%; 
+    }
+    .logininput{
+      display: block; 
+    }
+    .logininput label{
+        margin-left: 18%; 
+        font-size: 20px;
+
+    }
+    .admin-login-form p{
+        margin-left: 17%; margin-top: 10px; font-size: 19px;
+        font-weight: bold;
+    }
+    
+   
+
+
+
